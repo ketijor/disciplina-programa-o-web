@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script language="javascript" src="script.js"></script>
+		<meta charset="utf-8">
+	</head>
+
+	<body onload="mensage('Pedro')">
+		<button onclick="mensage('José')">Clique aqui</button>
+		<button onmouseover="mensage('José')">Clique aqui</button>
+		<button onmouseleave="mensage2('Pedro')">Clique aqui</button>
+
+		<span id="mensagemm">Olá mundo!</span>
+		<button onclick="mudaCor('blue')">Azul</button>
+		<button onclick="mudaCor('red')">Vermelho</button>
+
+		<form>
+			<input type="text" name="nome" id="nome" placeholder="Insira seu nome aqui">
+			<input type="submit" onclick="valida()">
+		</form>
+	</body>
+</html>
